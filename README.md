@@ -75,3 +75,7 @@ Notebook 文件（`.ipynb`）可直接用 Jupyter Notebook 或 PyCharm 打开运
 
 - 仓库仅用于学习记录，代码以理解算法流程为主。
 - `train.csv` 为手写数字识别数据集（约 73 MB）。
+
+## 相关仓库
+
+- Python 学习笔记（基础语法、numpy/pandas）：https://github.com/zjb0507/python-notes
