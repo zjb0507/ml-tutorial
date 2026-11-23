@@ -17,7 +17,7 @@
 
 
 #1 特征工程(生成新的特征或选择有效特征)
-#低特征过滤法
+#低方差过滤法
 # import numpy as np
 # a=np.random.randn(100)
 # print(np.var(a))
@@ -62,7 +62,7 @@
 # print(x.corrwith(y,method='spearman'))
 
 #降维
-#主成分分析（通过线性变化将高位数据投影到低维空间，保留方差大的特征）
+#主成分分析（通过线性变化将高维数据投影到低维空间，保留方差大的特征，就是找到所有组成特征的成分（基向量），挑出方差最大的成分，重新线性组合生成新的特征数据集）
 # import numpy as np
 # import matplotlib.pyplot as plt
 # from sklearn.decomposition import PCA   #主成分分析类pca
